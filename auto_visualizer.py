@@ -54,15 +54,3 @@ def visualize(df, num_len=20):
             plt.show()
         else:
             print(f"Skipping {col} (unsupported type).")
-
-data = {
-    "Age": [21, 22, 23, 24, 25, 22, 23, 24],
-    "Gender": ["M", "F", "M", "M", "F", "F", "M", "F"],
-    "ZipCode": [560001, 560002, 560001, 560003, 560002, 560001, 560004, 560003],
-    "Review": ["good service", "bad food", "good food", "excellent service", 
-               "good staff", "poor food", "good service", "bad staff"]
-}
-df = pd.DataFrame(data)
-
-# Just one call
-visualize(df)
