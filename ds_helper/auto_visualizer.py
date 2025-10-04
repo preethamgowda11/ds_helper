@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-from column_detector import typeofcolumn 
+from .column_detector import typeofcolumn 
 
 def visualize(df, num_len=20):
     column_types = typeofcolumn(df, num_len)
