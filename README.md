@@ -12,7 +12,7 @@ Clone the repository and install locally:
 ```sh
 git clone https://github.com/preethamgowda11/ds_helper.git
 cd ds_helper
-pip install -e .
+pip install .
 ```
 
 ## Usage
